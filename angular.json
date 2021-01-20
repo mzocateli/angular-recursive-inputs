@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angular-retorno"
+    }
+  },
+  "defaultProject": "angular-retorno",
+  "cli": {
+    "analytics": "770807e9-32bd-4106-8510-3de9eed490c9"
+  }
 }
