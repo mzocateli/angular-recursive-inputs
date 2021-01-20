@@ -1,0 +1,6 @@
+<div *ngFor="let item of treeData">
+  <div>
+    {{item.key}}: <input type="text" *ngIf="isString(item.value)" [value]="item.value">
+  </div>
+  <app-tree-form [treeData]="item.value | keyvalue"></app-tree-form>
+</div>

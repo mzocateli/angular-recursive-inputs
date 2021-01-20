@@ -1,0 +1,6 @@
+<h2>Formulario Recursivo</h2>
+<div [formGroup]="tokensForm">
+  <app-tree-form [treeData]="tokensForm.value | keyvalue"></app-tree-form>
+</div>
+
+<app-form-debug [formulario]="tokensForm"></app-form-debug>
